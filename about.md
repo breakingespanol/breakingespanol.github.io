@@ -9,7 +9,7 @@ We're Jennie and Ben Sullins. We have a young son named Jack. After a few trips 
 
 Enter your info below to stay updated about our progress. :clap: :palm_tree:
 
-##¡Hasta Pronto!
+## ¡Hasta Pronto!
 
 
 <div id="mc_embed_signup">
