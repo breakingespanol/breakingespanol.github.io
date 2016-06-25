@@ -1,3 +1,9 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+published: true
+---
 Want to get in touch with us? Shoot us a note below.
 
 <form id="contact-form" action="https://formspree.io/breakingespanol@gmail.com"
