@@ -13,7 +13,7 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-    
+
     <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
     <style type="text/css">
         #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
@@ -33,8 +33,8 @@
 
           <nav>
             <a href="{{ site.baseurl }}/episodes">Episodes</a>
-            <a href="{{ site.baseurl }}/blog">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
+						<a href="{{ site.baseurl }}/contact">Contact</a>
           </nav>
         </header>
       </div>
@@ -47,7 +47,8 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}               
+          {% include svg-icons.html %}
+					{% include opt-in.html %}
         </footer>
       </div>
     </div>
