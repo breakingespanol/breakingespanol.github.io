@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-
-Thank you for checking us out! ;)
+#Thank you for checking us out! ;)
 
 We're still working on our launch sequence :rocket: and hope to have more here soon!
 
@@ -17,20 +16,4 @@ Stay tuned below by subscribing to our newsletter. ¡Hasta Pronto!
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
-</div>
-
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ content }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
 </div>
