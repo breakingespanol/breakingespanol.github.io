@@ -1,14 +1,16 @@
 ---
 layout: post
-title: 'New website! '
+title: New Website
 published: true
 ---
 
 Thank you for checking us out! ;)
 
-We're still working on our launch sequence :rocket: and hope to have more here soon!
+We're still working on our launch sequence 🚀 and hope to have more here soon!
 
-Stay tuned below by subscribing to our newsletter. ¡Hasta Pronto!
+Stay tuned below by subscribing to our newsletter. 
+
+## ¡Hasta Pronto!
 
 <div id="mc_embed_signup">
 <form action="//github.us13.list-manage.com/subscribe/post?u=cad55455551e1e11806a8b502&amp;id=750eb9afc7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
