@@ -9,7 +9,7 @@ We're Jennie and Ben Sullins. We have a young son named Jack. After a few trips 
 
 Living in Southern California, Spanish was an obvious choice. This podcast is our journey into learning Spanish and immersing ourselves into Latin culture.
 
-Enter your info below to stay updated about our progress. 👏🌴
+Enter your info below to stay updated about our progress 👏🌴
 
 ## ¡Hasta Pronto!
 
