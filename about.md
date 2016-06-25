@@ -4,12 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+We're Jennie and Ben Sullins. We have a young son named Jack. After a few trips to Europe and Latin America we decided it was time to actually learn a second language. Living in Southern California, Spanish was an obvious choice. This podcast is our journey into learning Spanish and immersing ourselves into Latin culture. 
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
