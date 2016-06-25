@@ -1,10 +1,22 @@
 ---
 layout: post
-title: You're up and running!
+title: 'New website! '
+published: true
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Thank you for checking us out! ;)
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+We're still working on our launch sequence :rocket: and hope to have more here soon!
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Stay tuned below by subscribing to our newsletter. ¡Hasta Pronto!
+
+<div id="mc_embed_signup">
+<form action="//github.us13.list-manage.com/subscribe/post?u=cad55455551e1e11806a8b502&amp;id=750eb9afc7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Subscribe to our mailing list</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cad55455551e1e11806a8b502_750eb9afc7" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
