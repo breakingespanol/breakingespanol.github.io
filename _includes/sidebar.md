@@ -6,4 +6,4 @@ Living in Southern California, Spanish was an obvious choice. This podcast is ou
 
 Enter your info below to stay updated about our progress 👏🌴
 
-¡Hasta Pronto!
+## ¡Hasta Pronto!
