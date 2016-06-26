@@ -6,7 +6,6 @@ published: true
 ---
 
 ## High Five!
-
-![High Five](/images/high-five.svg "High Five")
+<img src="/images/high-five.svg" width="300px"/>
 
 If you requested a response we'll try to get back to you shortly.
