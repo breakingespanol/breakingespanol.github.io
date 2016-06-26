@@ -35,15 +35,15 @@
 	font-size: 18px;
 	border-radius: 0;
 	line-height: 22px;
-	background-color: #e5e5e5;
-	padding: 13px 13px 13px 54px;
+	background-color: #e1e1e1;
+	padding: 13px 13px 13px 13px;
 	margin-bottom: 10px;
 	width:100%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-  border: 3px solid rgba(0,0,0,0);
+  border: 2px solid rgba(0,0,0,0);
 }
 
 .feedback-input:focus{
@@ -117,7 +117,7 @@ input:focus, textarea:focus {
 	border: #777 solid 2px;
 	cursor:pointer;
 	background-color: #fff;
-	color:white;
+	color:#777;
 	font-size:24px;
 	padding-top:22px;
 	padding-bottom:22px;
@@ -130,11 +130,11 @@ input:focus, textarea:focus {
 
 #button-blue:hover{
 	background-color: rgba(0,0,0,0);
-	color: #0493bd;
+	color: #000;
 }
 
 .submit:hover {
-	color: #3498db;
+	color: #000;
 }
 
 .ease {
