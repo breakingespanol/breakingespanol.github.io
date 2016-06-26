@@ -21,7 +21,13 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
-	max-width: 980px;
+}
+
+
+.wrapper-main {
+  max-width: 960px;
+	margin: 20px;
+	background: $white;
 }
 
 .container {
@@ -198,6 +204,7 @@ img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+	width:100%; //added to put site name above the menu
 }
 
 .site-description {
