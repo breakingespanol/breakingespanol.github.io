@@ -329,7 +329,8 @@ footer {
 	@include mobile {
     float: none;
     display: block;
-    margin: 0 auto;
+    margin: 0;
+		padding: 0;
 		width: 100%;
   }
 
