@@ -38,10 +38,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
-  font-weight: bold;
+  // font-weight: bold;
+	font-weight: 300;
 
   line-height: 1.7;
-  // margin: 1em 0 15px;
+  margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
@@ -51,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 36px;
-	font-weight: 300;
+
   a {
     color: inherit;
   }
@@ -234,7 +235,7 @@ img {
 }
 
 .episode-subtitle {
-	margin: -20px 0 0 0;
+	margin: -10px 0 0 0;
 	color: $gray;
 	font-size: 16px;
 
