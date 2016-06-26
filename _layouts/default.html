@@ -44,11 +44,14 @@
       {{ content }}
     </div>
 
+		<div id="sidebar" role="sidebar" class="sidebar">
+			{% include sidebar.html %}
+		</div>
+
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-					{% include opt-in.html %}					
-          {% include svg-icons.html %}
+          {% include footer.html %}
         </footer>
       </div>
     </div>
