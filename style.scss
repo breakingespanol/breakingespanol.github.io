@@ -259,6 +259,12 @@ nav {
 // .main
 //
 
+.posts {
+	width: 75%;
+	padding-right:10px
+	float:left;
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -271,9 +277,7 @@ nav {
 
 .post {
 	//trying to add sidebar
-	max-width:75%;
-	padding-right:20px;
-	float:left;
+	width:100%;
 
   blockquote {
     margin: 1.8em .8em;
