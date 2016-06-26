@@ -42,11 +42,14 @@
 
     <div id="main" role="main" class="container">
       {{ content }}
+
+			<div id="sidebar" role="sidebar" class="sidebar">
+				{% include sidebar.html %}
+			</div>
+
     </div>
 
-		<div id="sidebar" role="sidebar" class="sidebar">
-			{% include sidebar.html %}
-		</div>
+
 
     <div class="wrapper-footer">
       <div class="container">
