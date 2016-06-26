@@ -263,6 +263,15 @@ nav {
 	width: 75%;
 	padding-right:10px;
 	float:left;
+
+	@include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+		width: 100%;
+  }
+
+
 }
 
 .posts > .post {
@@ -316,6 +325,14 @@ footer {
 	padding: 10px;
 	max-width: 25%;
 	border-left: 1px solid $lightGray;
+
+	@include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+		width: 100%;
+  }
+
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
