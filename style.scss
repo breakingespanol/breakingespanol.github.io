@@ -21,13 +21,13 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+	max-width: 980px;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 980px;
-  padding: 0 10px;
-  width: 100%;
+  padding: 10px;
+  width: 75%;
 }
 
 h1, h2, h3, h4, h5, h6 {
