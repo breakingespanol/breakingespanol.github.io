@@ -6,7 +6,7 @@ layout: default
       <article class="post">
 
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-				<p class="site-description">Episode {{ post.url | replace: '/', ''}} | {{ post.date | date: "%B %e, %Y" }}</p>
+				<p class="episode-subtitle">Episode {{ post.url | replace: '/', ''}} | {{ post.date | date: "%B %e, %Y" }}</p>
 
         <div class="entry">
           {{ post.content }}
