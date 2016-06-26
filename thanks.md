@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Thanks
+title: Thanks for reaching out!
 permalink: /thanks/
 published: true
 ---
-# Thanks for your message!
-
 If you requested a response we'll try to get back to you shortly.
