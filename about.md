@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 published: true
 ---
-<img src="/images/breaking-espanol-logo.jpg" title="Breaking Español Family" align="right" style="padding-left:20px; border-radius:50%;"/>
+<img src="/images/breaking-espanol-logo.jpg" title="Breaking Español Family" align="right" style="padding:20px; border-radius:50%;"/>
 
 We're Jennie and Ben Sullins. We have a young son named Jack. After a few trips to Europe and Latin America we decided it was time to actually learn a second language.
 
@@ -14,4 +14,4 @@ Enter your info below to stay updated about our progress 👏🌴
 
 ## ¡Hasta Pronto!
 
-{{ include opt-in.html }}
+{% include opt-in.html %}
