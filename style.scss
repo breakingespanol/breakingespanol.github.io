@@ -315,6 +315,7 @@ footer {
 	float:left;
 	padding: 10px;
 	max-width: 25%;
+	border-left: 1px solid $lightGray;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
