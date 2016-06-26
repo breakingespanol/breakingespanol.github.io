@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 960px;
   padding: 0 10px;
   width: 100%;
 }
@@ -281,6 +281,18 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.main-content {
+	padding: 20px;
+	width: 80%;
+}
+
+.sidebar {
+
+	padding: 20px;
+	max-width: 20%;
+
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
