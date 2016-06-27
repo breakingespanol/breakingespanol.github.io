@@ -347,7 +347,7 @@ footer {
 	border-left: 1px solid $lightGray;
 
 	img {
-		align:right;
+		float:right;
 	}
 
 	@include mobile {
@@ -358,7 +358,7 @@ footer {
 		padding: 0;
 		width: 100%;
 		img {
-			align:center;
+			float:center;
 		}
   }
 
