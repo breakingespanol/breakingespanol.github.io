@@ -346,6 +346,10 @@ footer {
 	width: 25%;
 	border-left: 1px solid $lightGray;
 
+	img {
+		align:right;
+	}
+
 	@include mobile {
 		// font-size:70%;
     float: none;
@@ -353,6 +357,9 @@ footer {
     margin: 0;
 		padding: 0;
 		width: 100%;
+		img {
+			align:center;
+		}
   }
 
 }
