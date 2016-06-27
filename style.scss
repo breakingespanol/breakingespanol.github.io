@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 16px/1.5 $helvetica;
   color: $darkGray;
 }
 
@@ -51,7 +51,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 24px;
+  font-weight: 700;
 
   a {
     color: inherit;
@@ -59,20 +60,21 @@ h1 {
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 20px;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 16px;
   color: $gray;
 }
 
 p {
   margin: 15px 0;
+  font-size: 16px;
 }
 
 a {
@@ -225,7 +227,7 @@ img {
 }
 
 .site-description {
-  margin: 0;
+  margin: 10px 0 0 0;
   color: $gray;
   font-size: 16px;
 
@@ -235,9 +237,10 @@ img {
 }
 
 .episode-subtitle {
-	margin: -10px 0 0 0;
+	margin: -1px 0 0 0;
 	color: $gray;
 	font-size: 16px;
+	font-weight: 200;
 
 	@include mobile {
 		margin: 3px 0;
@@ -336,15 +339,24 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+
+  p {
+    font-size: 12px;
+    color: $gray;
+  }
 }
 
 
 .sidebar {
 	// font-size: 14px;
 	float:left;
-	padding: 10px;
+	padding: 20px;
 	width: 25%;
 	border-left: 1px solid $lightGray;
+  p {
+    font-size: 14px;
+    line-height: 26px;
+  }
 
 	@include mobile {
 		// font-size:70%;
