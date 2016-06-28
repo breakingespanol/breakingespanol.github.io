@@ -6,7 +6,7 @@ published: true
 ---
 <img class="about-image" src="/images/breaking-espanol-logo.jpg" title="Breaking Español Family" style="padding-left:20px; border-radius:50%;"/>
 
-## Hola! Mucho gusto!
+## ¡Hola, Mucho Gusto!
 
 We are Jennie and Ben Sullins hosts of Breaking Español the Podcast. Recording after our young son Jack goes to sleep.  
 
