@@ -54,7 +54,7 @@ baseurl: ""
 prose:
   metadata:
     _posts:
-      - name: "title"
+      - name: "post-title"
         field:
           element: "text"
           placeholder: "Post Title w/o Episode Number"
