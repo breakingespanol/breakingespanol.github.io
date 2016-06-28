@@ -15,6 +15,7 @@ We started this journey because we believe having compassion for other cultures 
 Now we are in a race to learn Spanish faster than our son as he is starting so young. We love the food, the tequila, and traveling to latin countries as often as we can to try and immerse ourselves in the culture and gain that compassion. 
 
 On the show, we chat about:
+- Note 1
 - The ups and downs of learning a new language
 - Finding the time to learn 
 - What has and hasn't worked
