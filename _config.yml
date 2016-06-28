@@ -52,6 +52,8 @@ baseurl: ""
 
 # Prose configuration for easier editing
 prose:
+  rooturl: "_posts"
+  siteurl: "http://breakingespanol.com"
   metadata:
     _posts:
       - name: "post-title"
@@ -77,7 +79,6 @@ prose:
               value: 'true'
             - name: 'false'
               value: 'false'
-  
           
 
 
