@@ -58,6 +58,7 @@ prose:
         field:
           element: "text"
           placeholder: "Post Title w/o Episode Number"
+          label: "Title"
       - name: "layout"
         field:
           element: "hidden"
@@ -66,10 +67,21 @@ prose:
         field:
           element: "text"
           placeholder: "Link to episode on soundcloud"
+          label: "Soundcloud URL"
       - name: "published"
         field:
+          element: "select"
+          label: "Published?"
+          options:
+            - name: 'true'
+              value: 'true'
+            - name: 'false'
+              value: 'false'
+      - name: "title"
+        field:
           element: "text"
-          placeholder: "true/false"
+          placeholder: "<yyyy-mm-dd>-<show number>"
+          label: "file name"
   
           
 
