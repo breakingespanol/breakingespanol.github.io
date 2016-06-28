@@ -50,6 +50,30 @@ url: http://breakingespanol.com
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+# Prose configuration for easier editing
+prose:
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          placeholder: "Post Title w/o Episode Number"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "soundcloud-url"
+        field:
+          element: "text"
+          placeholder: "Link to episode on soundcloud"
+      - name: "published"
+        field:
+          element: "text"
+          placeholder: "true/false"
+  
+          
+
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
