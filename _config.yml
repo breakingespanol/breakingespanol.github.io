@@ -70,15 +70,6 @@ prose:
           element: "text"
           placeholder: "Link to episode on soundcloud"
           label: "Soundcloud URL"
-      - name: "published"
-        field:
-          element: "select"
-          label: "Published?"
-          options:
-            - name: 'true'
-              value: 'true'
-            - name: 'false'
-              value: 'false'
           
 
 
