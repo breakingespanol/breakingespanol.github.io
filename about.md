@@ -12,17 +12,17 @@ We are Jennie and Ben Sullins hosts of Breaking Español the Podcast. Recording 
 
 We started this journey because we believe having compassion for other cultures starts with speaking their language. After a few trips to Europe and Latin America, we decided it was time to commit and actually learn a second language. Living in Southern California Spanish was an obvious choice. 
 
-Now we are in a race to learn Spanish faster than our son as he’s at an advantage starting so young. We love the food, the tequila, and traveling to latin countries as often as we can to try and immerse ourselves in the culture and gain that compassion. 
+Now we are in a race to learn Spanish faster than our son as he is starting so young. We love the food, the tequila, and traveling to latin countries as often as we can to try and immerse ourselves in the culture and gain that compassion. 
 
 On the show, we chat about:
-* The ups and downs of learning a new language
-* Finding the time to learn 
-* What has and hasn't worked
-* How we stay inspired to keep going
-* Our experiences raising our child bilingual
-* How to get past the timidness of speaking
-* Traveling through Latin America 
-* and so much more...
+- The ups and downs of learning a new language
+- Finding the time to learn 
+- What has and hasn't worked
+- How we stay inspired to keep going
+- Our experiences raising our child bilingual
+- How to get past the timidness of speaking
+- Traveling through Latin America 
+- and much more...
 
 Join us on this journey, and hopefully, together we can learn to have greater compassion for each other, one incorrectly conjugated verb at a time.
 
