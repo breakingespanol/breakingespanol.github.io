@@ -6,12 +6,33 @@ published: true
 ---
 <img class="about-image" src="/images/breaking-espanol-logo.jpg" title="Breaking Español Family" style="padding-left:20px; border-radius:50%;"/>
 
-We're Jennie and Ben Sullins. We have a young son named Jack. After a few trips to Europe and Latin America we decided it was time to actually learn a second language.
+## Hola! Mucho gusto!
 
-Living in Southern California, Spanish was an obvious choice. This podcast is our journey into learning Spanish and immersing ourselves into Latin culture.
+We are Jennie and Ben Sullins hosts of Breaking Español the Podcast. Recording after our young son Jack goes to sleep.  
 
-Enter your info below to stay updated about our progress 👏🌴
+We started this journey because we believe having compassion for other cultures starts with speaking their language. After a few trips to Europe and Latin America, we decided it was time to commit and actually learn a second language. Living in Southern California Spanish was an obvious choice. 
 
-## ¡Hasta Pronto!
+Now we are in a race to learn Spanish faster than our son as he’s at an advantage starting so young. We love the food, the tequila, and traveling to latin countries as often as we can to try and immerse ourselves in the culture and gain that compassion. 
+
+On the show, we chat about:
+* The ups and downs of learning a new language
+* Finding the time to learn 
+* What has and hasn't worked
+* How we stay inspired to keep going
+* Our experiences raising our child bilingual
+* How to get past the timidness of speaking
+* Traveling through Latin America 
+* and so much more...
+
+Join us on this journey, and hopefully, together we can learn to have greater compassion for each other, one incorrectly conjugated verb at a time.
+
+Subscribe and listen here. New Podcasts weekly!
 
 {% include opt-in.html %}
+
+Gracias por escuchar, 
+Jennie and Ben 
+
+Drop us a message [here](/contact)
+
+
