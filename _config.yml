@@ -77,11 +77,6 @@ prose:
               value: 'true'
             - name: 'false'
               value: 'false'
-      - name: "title"
-        field:
-          element: "text"
-          placeholder: "<yyyy-mm-dd>-<show number>"
-          label: "file name"
   
           
 
