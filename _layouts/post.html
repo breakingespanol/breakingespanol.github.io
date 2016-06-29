@@ -6,6 +6,8 @@ layout: default
   <h1>{{ page.post-title }}</h1>
 	<p class="episode-subtitle">Episode {{ page.url | replace: '/', ''}} | {{ page.date | date: "%B %e, %Y" }}</p>
 
+	{% include soundcloud.html %}
+
   <div class="entry">
     {{ content }}
   </div>
