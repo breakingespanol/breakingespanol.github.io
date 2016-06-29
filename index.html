@@ -11,8 +11,12 @@ layout: default
         <div class="entry">
           {{ post.excerpt }}
         </div>
-        
-         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+
+				{% if post.soundcloud-url %}
+						{% include soundcloud.html id=post.soundcloud-url %}
+				{% endif %}
+
+         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Full Show Notes</a>
       </article>
   {% endfor %}
 </div>
