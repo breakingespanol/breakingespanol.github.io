@@ -100,7 +100,6 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - soundcloud # Add liquid tag for embedding soundcloud tracks
 
 # Exclude these files from your production _site
 exclude:
