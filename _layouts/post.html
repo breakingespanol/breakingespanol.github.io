@@ -6,9 +6,11 @@ layout: default
   <h1>{{ page.post-title }}</h1>
 	<p class="episode-subtitle">Episode {{ page.url | replace: '/', ''}} | {{ page.date | date: "%B %e, %Y" }}</p>
 
-	{% if page.soundcloud-url %}
-			{% include soundcloud.html id=page.soundcloud-url %}
-	{% endif %}
+	<div id="soundcloud-embed">
+		{% if page.soundcloud-url %}
+				{% include soundcloud.html id=page.soundcloud-url %}
+		{% endif %}
+	</div>
 
   <div class="entry">
     {{ content }}
