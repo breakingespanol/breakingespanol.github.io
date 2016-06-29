@@ -9,8 +9,10 @@ layout: default
 				<p class="episode-subtitle">Episode {{ post.url | replace: '/', ''}} | {{ post.date | date: "%B %e, %Y" }}</p>
 
         <div class="entry">
-          {{ post.content }}
+          {{ post.excerpt }}
         </div>
+        
+         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       </article>
   {% endfor %}
 </div>
