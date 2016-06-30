@@ -1,3 +1,8 @@
+---
+layout: page
+published: true
+---
+
 If you require any more information or have any questions about our privacy policy, please feel free to contact us [here](/contact) 
 
 At BreakingEspanol.com we consider the privacy of our visitors to be extremely important. This privacy policy document describes in detail the types of personal information is collected and recorded by BreakingEspanol.com and how we use it.
