@@ -15,18 +15,23 @@ avatar: http://breakingespanol.com/images/breaking-espanol-sidebar.png
 # Flags below are optional
 #
 
+# Social Icons
+facebook_user: breakingespanol
+instagram_user: breakingespanol
+twitter_user: breakingespanol
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
   email:
-  facebook:
+  facebook: breakingespanol
   flickr:
   github:
-  instagram:
+  instagram: breakingespanol
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter:
+  twitter: breakingespanol
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
