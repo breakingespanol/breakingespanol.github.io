@@ -24,7 +24,7 @@ Join us on this journey, and hopefully, together we can learn to have greater co
 
 Subscribe and listen here. New Podcasts weekly!
 
-{% include subscribe.html %}
+[BreakingEspanol.com](http://breakingespanol.com)
 
 Gracias por escuchar,
 Jennie and Ben
