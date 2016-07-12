@@ -1,4 +1,4 @@
-<img class="about-image" src="/images/breaking-español-podcast-art.png" title="Breaking Español Family" style="padding-left:20px; border-radius:50%; max-width:300px; max-height:600px;"/>
+<img class="about-image" src="/images/breaking-espanol-podcast-art.png" title="Breaking Español Family" style="padding-left:20px; border-radius:50%; max-width:300px; max-height:600px;"/>
 
 ## ¡Hola, Mucho Gusto!
 
