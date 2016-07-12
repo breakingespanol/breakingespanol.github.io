@@ -1,0 +1,44 @@
+<script>
+
+            $.get('https://dl.dropbox.com/s/69gcx22hknswrlu/_chart_downloads_location.csv?dl=0', function(csvData){
+
+               var options = {
+                   chart: {
+                       renderTo: 'locations',
+                       type: 'bar'
+                   },
+                   data:{
+                       csv: csvData
+                   },
+                   title: {
+                       text: 'Top Locations'
+                   },
+                   tooltip: {
+                       enabled: true
+                   },
+                   yAxis: {
+                       title: {
+                           text: '',
+                           margin: 10
+                       },
+                       labels: {
+                           enabled: true
+                       },
+                       gridelineWidth: 0
+                   },
+                   series: [{
+                       showInLegend: false,
+                       dataLabels: {
+                           enabled: true
+                       },
+                       data: []
+                   }]
+               }
+
+               var chart = new Highcharts.Chart(options);
+
+            });
+
+        </script>
+
+        <div id="locations" class="half"></div>

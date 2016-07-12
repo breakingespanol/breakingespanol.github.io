@@ -1,0 +1,45 @@
+<script>
+
+            $.get('https://dl.dropbox.com/s/n80n2zi4r4a14rz/_chart_downloads_daily.csv?dl=0', function(csvData){
+
+               var options = {
+                   chart: {
+                       renderTo: 'downloads',
+                       type: 'spline',
+											 height: 300
+                   },
+                   data:{
+                       csv: csvData
+                   },
+                   title: {
+                       text: 'Daily Downloads'
+                   },
+                   tooltip: {
+                       enabled: true
+                   },
+                   yAxis: {
+                       title: {
+                           text: '',
+                           margin: 10
+                       },
+                       labels: {
+                           enabled: true
+                       },
+                       gridelineWidth: 0
+                   },
+                   series: [{
+                       showInLegend: false,
+                       dataLabels: {
+                           enabled: true
+                       },
+                       data: []
+                   }]
+               }
+
+               var chart = new Highcharts.Chart(options);
+
+            });
+
+        </script>
+
+        <div id="downloads"></div>

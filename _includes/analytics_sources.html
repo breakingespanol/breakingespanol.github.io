@@ -1,0 +1,44 @@
+<script>
+
+            $.get('https://dl.dropbox.com/s/v1mquvbmirglgq2/_chart_downloads_source.csv?dl=0', function(csvData){
+
+               var options = {
+                   chart: {
+                       renderTo: 'sources',
+                       type: 'bar'
+                   },
+                   data:{
+                       csv: csvData
+                   },
+                   title: {
+                       text: 'Top Sources'
+                   },
+                   tooltip: {
+                       enabled: true
+                   },
+                   yAxis: {
+                       title: {
+                           text: '',
+                           margin: 10
+                       },
+                       labels: {
+                           enabled: true
+                       },
+                       gridelineWidth: 0
+                   },
+                   series: [{
+                       showInLegend: false,
+                       dataLabels: {
+                           enabled: true
+                       },
+                       data: []
+                   }]
+               }
+
+               var chart = new Highcharts.Chart(options);
+
+            });
+
+        </script>
+
+        <div id="sources" class="half"></div>
