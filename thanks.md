@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ¡Dame Cinco! (gimme five)
+title: ¡Chocala! (gimme five)
 permalink: /thanks/
 published: true
 ---
