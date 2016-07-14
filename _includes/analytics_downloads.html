@@ -1,45 +1,43 @@
 <script>
+	//setup chart definition
+	var options = {
+	   chart: {
+	       renderTo: 'downloads',
+	       type: 'spline',
+				 height: 300
+	   },
+	   data:{
+				googleSpreadsheetKey: '1j_8c6ZYU8rGoZjmFm88dV6OnPs1o-y5ru9jz16-8wyo',
+				googleSpreadsheetWorksheet: 'ot3k1ld'
+	   },
+	   title: {
+	       text: 'Daily Downloads'
+	   },
+	   tooltip: {
+	       enabled: true
+	   },
+	   yAxis: {
+	       title: {
+	           text: '',
+	           margin: 10
+	       },
+	       labels: {
+	           enabled: true
+	       },
+	       gridelineWidth: 0
+	   },
+	   series: [{
+	       showInLegend: false,
+	       dataLabels: {
+	           enabled: true
+	       },
+	       data: []
+	   }]
+	}
 
-            $.get('https://dl.dropbox.com/s/n80n2zi4r4a14rz/_chart_downloads_daily.csv?dl=0', function(csvData){
+	//build chart
+	var chart = new Highcharts.Chart(options);
 
-               var options = {
-                   chart: {
-                       renderTo: 'downloads',
-                       type: 'spline',
-											 height: 300
-                   },
-                   data:{
-                       csv: csvData
-                   },
-                   title: {
-                       text: 'Daily Downloads'
-                   },
-                   tooltip: {
-                       enabled: true
-                   },
-                   yAxis: {
-                       title: {
-                           text: '',
-                           margin: 10
-                       },
-                       labels: {
-                           enabled: true
-                       },
-                       gridelineWidth: 0
-                   },
-                   series: [{
-                       showInLegend: false,
-                       dataLabels: {
-                           enabled: true
-                       },
-                       data: []
-                   }]
-               }
+	</script>
 
-               var chart = new Highcharts.Chart(options);
-
-            });
-
-        </script>
-
-        <div id="downloads"></div>
+	<div id="downloads"></div>

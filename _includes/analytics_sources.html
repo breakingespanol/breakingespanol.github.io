@@ -1,6 +1,6 @@
 <script>
 
-            $.get('https://dl.dropbox.com/s/v1mquvbmirglgq2/_chart_downloads_source.csv?dl=0', function(csvData){
+            // $.get('https://dl.dropbox.com/s/v1mquvbmirglgq2/_chart_downloads_source.csv?dl=0', function(csvData){
 
                var options = {
                    chart: {
@@ -8,7 +8,9 @@
                        type: 'bar'
                    },
                    data:{
-                       csv: csvData
+                      //  csv: csvData
+											googleSpreadsheetKey: '1j_8c6ZYU8rGoZjmFm88dV6OnPs1o-y5ru9jz16-8wyo',
+											googleSpreadsheetWorksheet: 'olusyfr'
                    },
                    title: {
                        text: 'Top Sources'
@@ -37,7 +39,7 @@
 
                var chart = new Highcharts.Chart(options);
 
-            });
+            // });
 
         </script>
 

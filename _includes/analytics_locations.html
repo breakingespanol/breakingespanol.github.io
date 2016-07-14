@@ -1,44 +1,42 @@
 <script>
+	//setup chart definition
+	var options = {
+	   chart: {
+	       renderTo: 'locations',
+	       type: 'bar'
+	   },
+	   data:{
+	      //  csv: csvData
+				googleSpreadsheetKey: '1j_8c6ZYU8rGoZjmFm88dV6OnPs1o-y5ru9jz16-8wyo',
+				googleSpreadsheetWorksheet: 'oef33xv'
+	   },
+	   title: {
+	       text: 'Top Locations'
+	   },
+	   tooltip: {
+	       enabled: true
+	   },
+	   yAxis: {
+	       title: {
+	           text: '',
+	           margin: 10
+	       },
+	       labels: {
+	           enabled: true
+	       },
+	       gridelineWidth: 0
+	   },
+	   series: [{
+	       showInLegend: false,
+	       dataLabels: {
+	           enabled: true
+	       },
+	       data: []
+	   }]
+	}
 
-            $.get('https://dl.dropbox.com/s/69gcx22hknswrlu/_chart_downloads_location.csv?dl=0', function(csvData){
+	var chart = new Highcharts.Chart(options);
 
-               var options = {
-                   chart: {
-                       renderTo: 'locations',
-                       type: 'bar'
-                   },
-                   data:{
-                       csv: csvData
-                   },
-                   title: {
-                       text: 'Top Locations'
-                   },
-                   tooltip: {
-                       enabled: true
-                   },
-                   yAxis: {
-                       title: {
-                           text: '',
-                           margin: 10
-                       },
-                       labels: {
-                           enabled: true
-                       },
-                       gridelineWidth: 0
-                   },
-                   series: [{
-                       showInLegend: false,
-                       dataLabels: {
-                           enabled: true
-                       },
-                       data: []
-                   }]
-               }
+	</script>
 
-               var chart = new Highcharts.Chart(options);
-
-            });
-
-        </script>
-
-        <div id="locations" class="half"></div>
+	<div id="locations" class="half"></div>
