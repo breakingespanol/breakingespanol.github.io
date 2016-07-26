@@ -15,12 +15,9 @@ avatar: http://breakingespanol.com/images/breaking-espanol-sidebar.png
 # Flags below are optional
 #
 
-# Social Icons
-facebook_user: breakingespanol
-instagram_user: breakingespanol
-twitter_user: breakingespanol
 
 # Includes an icon in the footer for each username you enter
+### THESE DO NOTHING ###
 footer-links:
   dribbble:
   email:
@@ -101,10 +98,14 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
+#setup pagination for index.html
+# paginate: 3
+
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  # - jekyll-paginate #setup pagination
 
 # Exclude these files from your production _site
 exclude:
