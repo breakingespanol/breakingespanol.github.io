@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<style>
+
+	.post-image-2 {
+		width:100%;
+		/*border: 1px dashed black;*/
+		/*float:left;*/
+	}
+
+	.post-title-index {
+
+		min-height: 70px;
+		max-width: 100%;
+		overflow: scroll;
+
+	}
+
+	.post-index {
+		max-width:30%;
+		float:left;
+		margin:10px;
+		font-size: 1.1vw;
+	}
+
+
+
+</style>
+
+<div class="posts">
+  {% for post in site.posts %}
+      <article class="post-index">
+
+				<!-- <div clas="post-image"> -->
+					<img class="post-image-2" src="/images/{{ post.url | replace: '/', ''}}.jpg" />
+				<!-- </div> -->
+
+				<!-- <div class="post-text"> -->
+	        <div class="post-title-index"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+					<!-- <p class="episode-subtitle">Episode {{ post.url | replace: '/', ''}} | {{ post.date | date: "%B %e, %Y" }}</p> -->
+
+	        <!-- <div class="entry">
+	          {{ post.excerpt }}
+						<a href="{{ site.baseurl }}{{ post.url }}">LISTEN HERE</a>
+						<br/>&nbsp;
+	        </div> -->
+				<!-- </div> -->
+				<!-- {% if post.soundcloud-url %} -->
+						<!-- {% include soundcloud.html id=post.soundcloud-url %} -->
+				<!-- {% endif %} -->
+
+
+      </article>
+  {% endfor %}
+</div>
+<div id="sidebar" role="sidebar" class="sidebar">
+	{% include sidebar.html %}
+</div>
