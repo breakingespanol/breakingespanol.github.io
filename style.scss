@@ -306,35 +306,6 @@ nav {
 	overflow:auto;
 }
 
-.post-image {
-	// float:left;
-	// min-width: 220px;
-	// margin-right:20px;
-	// margin-top:24px;
-	width:100%;
-}
-// articles on index page
-.post-index {
-	width:30%;
-	float:left;
-	margin:10px;
-	font-size: 1.1vw;
-}
-// post titel on index page
-.post-title-index {
-	min-height: 100px;
-	max-width: 220px;
-	width: 100%;
-	overflow: hidden;
-	// display:block;
-
-}
-
-.post-text{
-	max-width: 455px;
-	min-height:300px;
-	float:left;
-}
 
 .posts > .post:last-child {
   padding-bottom: 1em;
