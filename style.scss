@@ -281,6 +281,63 @@ nav {
 // .main
 //
 
+// custom index by ben sullins 2016-10-22
+
+
+.post-image {
+	width:100%;
+}
+
+.post-index {
+	/*max-width: 30%;*/
+	/*min-with: 200px;*/
+	width: 30%;
+	float:left;
+	margin:0 10px 10px 0;
+	min-height: 300px;
+	position: relative;
+	overflow: auto;
+	display:block;
+
+	@media (max-width: 767px) {
+	 width: 100%;
+	 }
+
+}
+
+.post-title-index {
+	width: 100%;
+	overflow: auto;
+}
+
+.post-exerpt {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	cursor: pointer;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	overflow: scroll;
+	height: 100%;
+	vertical-align: top;
+	opacity: 0;
+	-webkit-transition: opacity 300ms;
+	-moz-transition: opacity 300ms;
+	-o-transition: opacity 300ms;
+	transition: opacity 300ms;
+}
+
+.post-exerpt:hover {
+	opacity: 1;
+}
+
+span.post-exerpt span p {
+	margin: 5px;
+}
+
+
+
 .posts {
 	width: 75%;
 	padding-right:10px;
