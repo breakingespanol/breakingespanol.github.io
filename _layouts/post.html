@@ -15,6 +15,10 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
+  
+  {% if page.youtube %}
+      {% include youtube.html id=page.youtube %}
+  {% endif %}
 
 	<h1>Subscribe</h1>
 	{% include subscribe.html %}
