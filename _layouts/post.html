@@ -6,6 +6,10 @@ layout: default
   <h1>{{ page.title }}</h1>
 	<p class="episode-subtitle">Episode {{ page.url | replace: '/', ''}} | {{ page.date | date: "%B %e, %Y" }}</p>
 
+  {% if page.youtube %}
+      {% include youtube.html id=page.youtube %}
+  {% endif %}
+
 	<div id="soundcloud-embed">
 		{% if page.soundcloud-url %}
 				{% include soundcloud.html id=page.soundcloud-url %}
@@ -15,10 +19,6 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
-  
-  {% if page.youtube %}
-      {% include youtube.html id=page.youtube %}
-  {% endif %}
 
 	<h1>Subscribe</h1>
 	{% include subscribe.html %}
