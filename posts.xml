@@ -14,7 +14,7 @@ layout: null
     {% for post in site.posts %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        <description>{{ post.content }}</description>
 				<img>/wp-content/uploads/2017/10/{{ post.url | replace: '/', ''}}.jpg</img>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
