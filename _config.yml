@@ -104,23 +104,18 @@ sass:
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  # - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   # - jekyll-paginate #setup pagination
+  # - jekyll-rss
 
 plugins_dir: ./_plugins
 
 plugins:
   - jekyll-rss
 
-jekyll-rss:
-  name: "Breaking Español"
-  url: "http://breakingespanol.com"
-  description: "One family's honest journey learning spanish"
-  author: "Jennie Sullins"
-  copyright: "Breaking Español"
-  rss_path: "/"
-  rss_name: "/feed.xml"
-  rss_post_limit: 50
+rss_path: "/"
+rss_name: "/rss.xml"
+rss_post_limit: 50
 
 
 # Exclude these files from your production _site
